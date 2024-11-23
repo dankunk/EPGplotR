@@ -1,0 +1,28 @@
+# Update V1
+We have a workflow that first:
+-loads in recordings with load_d0x_files()
+-loads in ana files with load_ana_file()
+-assigns behavior codes to the recording file dataframe with assign_behavior_codes()
+-plot interactively with the plot_signal() function.
+
+# Next steps # mostly complete
+- make a ggplot version that will make a static plot with the same color representations.
+    this is updated wit the gg_plot_signal funtion.
+
+- make the ggplot version have an argument that will save to disc.
+- enhance the saving argument to allow for wide plots
+  in gg_plot_signal() there are now arguments for output_file and figure_type both default to null and wide respectively.
+
+# next step is making a logo.
+
+
+# then configuring git to github and pushing to a repo.
+
+
+
+
+# if possible ## update not really possible at the moment
+- make a function for animated ggplots.
+- be able to save these to disc as well.
+
+# generate easy functions to annotate events PD, E1, etc. with a label. This could be useful for seeing short events.
