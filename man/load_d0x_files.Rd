@@ -7,13 +7,13 @@
 load_d0x_files(file_path = FALSE)
 }
 \arguments{
-\item{file_path}{(Optional) The path to one of the \code{.D0x} files. If not provided, prompts the user to select a file.}
+\item{file_path}{(Optional) The path to one of the \code{.Dxx} files. If not provided, prompts the user to select a file.}
 }
 \value{
 A \code{data.table} with columns \code{time} and \code{signal}.
 }
 \description{
-Reads all \code{.D0x} files in the same directory that share the same base name as the selected file.
+Reads all \code{.Dxx} files in the same directory that share the same base name as the selected file.
 Assumes the files contain 32-bit floats (float32) in little-endian format, sampled at 100 Hz.
 The files start with three header lines that are skipped.
 }
