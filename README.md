@@ -216,7 +216,7 @@ For more details, visit the [EPGplotR Documentation](https://github.com/dankunk/
 ---
 
 ## 🔗 Contributing (coming soon)
-Want to contribute to EPGplotR? We welcome contributions! Check out our [Contribution guidelines for this project](https://github.com/dankunk/EPGplotR/blob/main/LICENSE.md) for details on how to get started.
+Want to contribute to EPGplotR? We welcome contributions! Check out our [Contribution guidelines for this project](https://github.com/dankunk/EPGplotR/blob/main/CONTRIBUTING.md) for details on how to get started.
 
 ---
 
