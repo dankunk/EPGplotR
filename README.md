@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-  <a href="https://github.com/dankunk/EPGplotR/blob/main/LICENSE">
+  <a href="https://github.com/dankunk/EPGplotR/blob/main/LICENSE.md">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
   </a>
   <a href="https://github.com/dankunk/EPGplotR/releases">
