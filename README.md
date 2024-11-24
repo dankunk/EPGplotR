@@ -211,16 +211,16 @@ gg_plot_signal(
 ---
 
 ## :books: Getting Started (coming soon)
-For more details, visit the `[EPGplotR Documentation](https://github.com/dankunk/EPGplotR/wiki)` to explore tutorials, examples, and detailed instructions.
+For more details, visit the [EPGplotR Documentation](https://github.com/dankunk/EPGplotR/wiki) to explore tutorials, examples, and detailed instructions.
 
 ---
 
 ## 🔗 Contributing (coming soon)
-Want to contribute to EPGplotR? We welcome contributions! Check out our `[Contributing Guide](https://github.com/dankunk/EPGplotR/main/CONTRIBUTING.md)` for details on how to get started.
+Want to contribute to EPGplotR? We welcome contributions! Check out our [Contribution guidelines for this project](https://github.com/dankunk/EPGplotR/blob/main/LICENSE.md) for details on how to get started.
 
 ---
 
 ## 📝 License
-This project is licensed under the MIT License. See the `[LICENSE](https://github.com/dankunk/EPGplotR/main/LICENSE.md)` file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/dankunk/EPGplotR/blob/main/LICENSE.md) file for details.
 
 ---
