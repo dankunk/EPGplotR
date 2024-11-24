@@ -1,12 +1,32 @@
-# Homepage for EPGplotR! Under construction!!!
-<img src="https://github.com/dankunk/EPGplotR/raw/main/EPGplotR.png" alt="Model" width="300"/>
+# EPGplotR 
+## A Package for Plotting Insect Electrical Penetration Graph Signals in R
 
-EPGplotR allows users to load insect electrical penetration graph (EPG) 
- files (with a .D0# extension) into R, plot the signals, and annotate them by behavior. 
- EPGplotR also allows users to interactively explore EPG recordings, segment and inspect 
- waveforms of interest, and save high-quality figures to disc. EPGplotR is built with 
- ggplot2 and plotly, and most of the plots can be further edited using 
- commands from their respective packages. add svg
+<div align="center">
+  <img src="https://github.com/dankunk/EPGplotR/raw/main/EPGplotR.png" alt="EPGplotR Logo" width="80%"/>
+</div>
 
-## Example Figure generated from EPGplotR. 
-<img src="https://github.com/dankunk/EPGplotR/blob/main/example_EPGplotR_plot.png" alt ="Model" width="1000"/>
+---
+## Project Description
+
+---
+## Installing EPGplotR
+Before you start installing EPGplotR make sure that you have R and Rstudio installed. To do this please follow the instructions below. 
+R and R studio installation instructions: https://posit.co/download/rstudio-desktop/
+
+Once you have these tools installed, you can install the EPGplotR package with the install.github() function in the devtools package.
+
+```R
+# if you don't already have dev tools installed.
+install.packages(devtools)
+
+# load devtools into your environment.
+library(devtools)
+
+# next, download and install the EPGplotR package from the github repository URL.
+install.github("https://github.com/dankunk/EPGplotR")
+
+# now you can load EPGplotR with the library() function.
+library(EPGplotR)
+```
+---
+## 
