@@ -97,7 +97,7 @@ Once you've loaded **`EPGplotR`** into your environment using `library(EPGplotR)
 
 ### Step 1: Load a `.DXX` Recording
 
-No need to supply a path manually. Simply run `load_d0x_files()`, select the desired file, and EPGplotR will handle the rest.
+No need to supply a path to all the recording files manually. Simply run `load_d0x_files()`, select the first hour file for the recording of interest (i.e. .D01), and EPGplotR will handle the rest!
 
 ```R
 # Load EPGplotR
