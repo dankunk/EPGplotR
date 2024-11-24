@@ -15,11 +15,20 @@
 #' rec_dt <- assign_behavior_codes(rec_dt, ana_dt)
 #' }
 assign_behavior_codes <- function(rec_dt, ana_dt) {
+  # Load data.table package
+  library(data.table)
+
   # Ensure ana_dt is sorted by start_time
   setorder(ana_dt, start_time)
 
+  # Calculate max_time considering both rec_dt and ana_dt
+  max_time <- max(
+    max(rec_dt$time, na.rm = TRUE),
+    max(ana_dt$start_time, na.rm = TRUE),
+    na.rm = TRUE
+  )
+
   # Create 'end_time' by shifting 'start_time' forward
-  max_time <- max(rec_dt$time, na.rm = TRUE)
   ana_dt[, end_time := shift(start_time, type = "lead", fill = max_time)]
 
   # Time vectors
@@ -43,3 +52,4 @@ assign_behavior_codes <- function(rec_dt, ana_dt) {
 
   return(rec_dt)
 }
+

@@ -1,13 +1,14 @@
 #' Load .D0x Files and Return Signal Data
 #'
 #' @description
-#' Reads all `.D0x` files in the same directory that share the same base name as the selected file.
+#' Reads all `.Dxx` files in the same directory that share the same base name as the selected file.
 #' Assumes the files contain 32-bit floats (float32) in little-endian format, sampled at 100 Hz.
 #' The files start with three header lines that are skipped.
 #'
-#' @param file_path (Optional) The path to one of the `.D0x` files. If not provided, prompts the user to select a file.
+#' @param file_path (Optional) The path to one of the `.Dxx` files. If not provided, prompts the user to select a file.
 #' @return A `data.table` with columns `time` and `signal`.
 #' @import data.table
+#' @import gtools
 #' @export
 #' @examples
 #' \dontrun{
@@ -19,7 +20,7 @@
 #' }
 load_d0x_files <- function(file_path = FALSE) {
   if (identical(file_path, FALSE)) {
-    cat("Please select one of the .D0x files...\n")
+    cat("Please select one of the .Dxx files...\n")
     file_path <- file.choose()
   }
 
@@ -28,17 +29,18 @@ load_d0x_files <- function(file_path = FALSE) {
   file_name <- basename(file_path)
 
   # Extract base name without extension
-  base_name <- sub("\\.D0[0-9]+$", "", file_name)
+  base_name <- sub("\\.D[0-9]+$", "", file_name)
 
-  # List all matching .D0x files
+  # List all matching .Dxx files
   files <- list.files(
     path = dir_path,
-    pattern = paste0("^", base_name, "\\.D0[0-9]+$"),
+    pattern = paste0("^", base_name, "\\.D[0-9]+$"),
     full.names = TRUE
   )
 
-  # Sort files (e.g., D01, D02, ...)
-  files <- sort(files)
+  # Sort files naturally (e.g., D1, D2, ..., D10, D11)
+  #library(gtools)  # For mixedsort function
+  files <- gtools::mixedsort(files)
 
   # Initialize lists for data
   signal_list <- list()
@@ -89,3 +91,4 @@ load_d0x_files <- function(file_path = FALSE) {
 
   return(dt)
 }
+

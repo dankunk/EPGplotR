@@ -118,7 +118,7 @@ gg_plot_signal <- function(rec_dt, downsample_rate = 10, time_unit = "hours", al
   # For hours, breaks every 0.5 hours (30 minutes)
   # For seconds, breaks every 1800 seconds (30 minutes)
   if (time_unit == "hours") {
-    x_breaks <- seq(floor(min_time * 2) / 2, ceiling(max_time * 2) / 2, by = 0.5)
+    x_breaks <- seq(floor(min_time * 2) / 2, ceiling(max_time * 2) / 2, by = 1)
   } else {
     x_breaks <- seq(floor(min_time / 1800) * 1800, ceiling(max_time / 1800) * 1800, by = 1800)
   }
