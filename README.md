@@ -7,7 +7,11 @@
 
 ---
 ## Project Description
-
+EPGplotR allows users to load insect electrical penetration graph (EPG) 
+ files (with a .DXX extension) into R, plot the signals, and annotate them by behavior. 
+ EPGplotR also allows users to interactively explore EPG recordings, segment and inspect 
+ waveforms of interest, and save high-quality figures to disc. With just four commands, users can generate publication ready figures. EPGplotR also integrates
+ well with ggplot2 and plotly, allowing for extensive user customizations by adding well-known arguments for each of those respective packages.
 ---
 ## Installing EPGplotR
 Before you start installing EPGplotR make sure that you have R and Rstudio installed. To do this please follow the instructions below. 
