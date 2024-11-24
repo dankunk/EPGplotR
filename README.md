@@ -224,4 +224,4 @@ Want to contribute to EPGplotR? We welcome contributions! Check out our [Contrib
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/dankunk/EPGplotR/blob/main/LICENSE.md) file for details.
 
 ---
-#### Written in November 2024 by Daniel Kunk (PhD Candidate - Colorado State University)
+#### Written November 2024 by Daniel Kunk (PhD Candidate - Colorado State University)
