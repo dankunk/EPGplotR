@@ -1,4 +1,4 @@
-# EPGplotR 
+# EPGplotR  
 ## A Package for Plotting Insect Electrical Penetration Graph Signals in R
 
 <div align="center">
@@ -6,31 +6,41 @@
 </div>
 
 ---
-## Project Description
-EPGplotR allows users to load insect electrical penetration graph (EPG) 
- files (with a .DXX extension) into R, plot the signals, and annotate them by behavior. 
- EPGplotR also allows users to interactively explore EPG recordings, segment and inspect 
- waveforms of interest, and save high-quality figures to disc. With just four commands, users can generate publication ready figures. EPGplotR also integrates
- well with ggplot2 and plotly, allowing for extensive user customizations by adding well-known arguments for each of those respective packages.
+
+## 🐞 Project Description
+
+**EPGplotR** is a powerful R package designed to simplify the analysis and visualization of insect electrical penetration graph (EPG) data. It enables users to:
+- **Load EPG Files**: Auto loading support for `.DXX` file formats (Stylet+ DAQ output files).
+- **Load ANA Files**: Load corresponding ANA files for plot annotations. 
+- **Visualize Signals**: Generate high-quality plots of EPG signals (interactive and static plots!).
+- **Annotate and Analyze**: Label recordings with behavioral annotations and segment key areas of interest.
+- **Customize Plots**: Built on the robust frameworks of **ggplot2** and **plotly**, allowing extensive user customizations.
+
+With just four commands, users can produce **publication-ready figures**. EPGplotR makes it easy to generate beautiful visualizations while offering lots of flexibility for advanced users.
+
 ---
-## Installing EPGplotR
-Before you start installing EPGplotR make sure that you have R and Rstudio installed. To do this please follow the instructions below. 
-R and R studio installation instructions: https://posit.co/download/rstudio-desktop/
 
-Once you have these tools installed, you can install the EPGplotR package with the install.github() function in the devtools package.
+## 🚀 Installing EPGplotR
 
+Before installing **EPGplotR**, ensure you have the following tools installed:
+- **R**: Download from [CRAN](https://cran.r-project.org/).
+- **RStudio**: Download the desktop version from [Posit](https://posit.co/download/rstudio-desktop/).
+
+Once these are installed, you can install EPGplotR using the **`install.github()`** function from the `devtools` package.
+
+### Installation Steps
 ```R
-# if you don't already have dev tools installed.
-install.packages(devtools)
+# If you don't already have devtools installed:
+install.packages("devtools")
 
-# load devtools into your environment.
+# Load devtools into your environment:
 library(devtools)
 
-# next, download and install the EPGplotR package from the github repository URL.
-install.github("https://github.com/dankunk/EPGplotR")
+# Install EPGplotR from GitHub:
+install_github("dankunk/EPGplotR")
 
-# now you can load EPGplotR with the library() function.
+# Load EPGplotR:
 library(EPGplotR)
 ```
+
 ---
-## 
