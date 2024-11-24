@@ -1,6 +1,6 @@
 Package: EPGplotR
 Title: A Package for Plotting Insect Electrical Penetration Graph Signals in R. 
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person("Daniel", "Kunk", , "Daniel.Kunk@colostate.edu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-6813-146X"))
