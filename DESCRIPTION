@@ -4,12 +4,19 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Daniel", "Kunk", , "Daniel.Kunk@colostate.edu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-6813-146X"))
-Description: EPGplotR allows users to load insect electrical penetration graph (EPG) files (with a .D0# extension) into R, plot the signals, and annotate them by behavior. EPGplotR also allows users to interactively explore EPG recordings, segment and inspect waveforms of interest, and save high-quality figures to disc. EPGplotR is built with ggplot2 and plotly, and most of the plots can be further edited using commands from those respective packages. 
+Description: EPGplotR allows users to load insect electrical penetration graph (EPG) 
+ files (with a .D0# extension) into R, plot the signals, and annotate them by behavior. 
+ EPGplotR also allows users to interactively explore EPG recordings, segment and inspect 
+ waveforms of interest, and save high-quality figures to disc. EPGplotR is built with 
+ ggplot2 and plotly, and most of the plots can be further edited using 
+ commands from those respective packages. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Imports: 
     data.table, ggplot2, plotly
+Suggests:
+    roxygen2 (>= 7.1.0)
 URL: https://github.com/dankunk/EPGplotR
 BugReports: https://github.com/dankunk/EPGplotR/issues
