@@ -164,7 +164,7 @@ gg_plot_signal <- function(rec_dt, downsample_rate = 10, time_unit = "hours", al
     scale_x_continuous(name = xaxis_title, breaks = x_breaks, limits = c(min_time, max_time)) +
     labs(
       title = plot_title,
-      y = "Signal (mV)"
+      y = "Signal (V)"
     ) +
     theme_minimal() +
     theme(
