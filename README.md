@@ -28,7 +28,7 @@
 ## 📋 Table of Contents
 - [Project Description](#beetle-project-description)
 - [Installing EPGplotR](#-installing-epgplotr)
-- [Using EPGplotR](#-using-epgplotr)
+- [Using EPGplotR](#computer-using-epgplotr)
   - [Step 1: Load a `.DXX` Recording](#step-1-load-a-dxx-recording)
   - [Step 2: Load the Corresponding `.ANA` File](#step-2-load-the-corresponding-ana-file)
   - [Step 3: Annotate the Recordings](#step-3-annotate-the-recordings)
@@ -94,7 +94,7 @@ Once these are installed, you can install **EPGplotR** using the **`install_gith
 
 ---
 
-## :bar_chart: Using EPGplotR
+## :computer: Using EPGplotR
 
 Once you've loaded **`EPGplotR`** into your environment using `library(EPGplotR)`, you're ready to start using EPGplotR.
 
@@ -206,10 +206,10 @@ gg_plot_signal(
 ---
 
 ## :wrench: Key Features
-Load and Process: Quickly import `.DXX` files and prepare them for analysis.
-Interactive Exploration: Zoom, pan, and explore waveforms for in-depth insights.
-Annotation: Add behavior-specific annotations to your plots.
-Customizable Outputs: Export high-quality, presentation-ready figures with vast control over appearance via ggplot2 and plotly.
+- Load and Process: Quickly import `.DXX` files and prepare them for analysis.
+- Interactive Exploration: Zoom, pan, and explore waveforms for in-depth insights.
+- Annotation: Add behavior-specific annotations to your plots.
+- Customizable Outputs: Export high-quality, presentation-ready figures with vast control over appearance via ggplot2 and plotly.
 
 ---
 
