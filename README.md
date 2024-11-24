@@ -1,14 +1,11 @@
 # EPGplotR  
-## A Package for Plotting Insect Electrical Penetration Graph Signals in R
+***A Package for Plotting Insect Electrical Penetration Graph Signals in R!***
 
 <div align="center">
   <img src="https://github.com/dankunk/EPGplotR/raw/main/EPGplotR.png" alt="EPGplotR Logo" width="80%"/>
 </div>
 
 <div align="center">
-  <a href="https://github.com/dankunk/EPGplotR/actions/workflows/R-CMD-check.yaml">
-    <img src="https://github.com/dankunk/EPGplotR/actions/workflows/R-CMD-check.yaml/badge.svg" alt="Build Status">
-  </a>
   <a href="https://github.com/dankunk/EPGplotR/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
   </a>
