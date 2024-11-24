@@ -42,7 +42,7 @@
 
 ## :beetle: Project Description
 
-**EPGplotR** is a powerful R package designed to simplify the analysis and visualization of insect electrical penetration graph (EPG) data. It enables users to:
+**EPGplotR** is a powerful R package designed to simplify the visualization of insect electrical penetration graph (EPG) data. It enables users to:
 
 - **Load EPG Files**: Automatically load **`.DXX`** file formats (**Stylet+ DAQ output files**).
 - **Load ANA Files**: Import corresponding **`.ANA`** files for plot annotations.
