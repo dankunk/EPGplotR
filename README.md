@@ -215,11 +215,11 @@ For more details, visit the `[EPGplotR Documentation](https://github.com/dankunk
 ---
 
 ## 🔗 Contributing (coming soon)
-Want to contribute to EPGplotR? We welcome contributions! Check out our `[Contributing Guide](https://github.com/dankunk/EPGplotR/blob/main/CONTRIBUTING.md)` for details on how to get started.
+Want to contribute to EPGplotR? We welcome contributions! Check out our `[Contributing Guide](https://github.com/dankunk/EPGplotR/main/CONTRIBUTING.md)` for details on how to get started.
 
 ---
 
 ## 📝 License (coming soon)
-This project is licensed under the MIT License. See the `[LICENSE](https://github.com/dankunk/EPGplotR/blob/main/LICENSE)` file for details.
+This project is licensed under the MIT License. See the `[LICENSE](https://github.com/dankunk/EPGplotR/main/LICENSE)` file for details.
 
 ---
