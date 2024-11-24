@@ -7,7 +7,7 @@
 #'
 #' @param file_path (Optional) The path to one of the `.D0x` files. If not provided, prompts the user to select a file.
 #' @return A `data.table` with columns `time` and `signal`.
-#' @importFrom data.table data.table
+#' @import data.table
 #' @export
 #' @examples
 #' \dontrun{
