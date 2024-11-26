@@ -5,9 +5,17 @@
   <img src="https://github.com/dankunk/EPGplotR/blob/main/EPGplotR.png" alt="EPGplotR Hex Logo" width="80%"/>
 </div>
 
-<div align="center">
-  <a href="https://github.com/dankunk/EPGplotR/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a><a href="https://github.com/dankunk/EPGplotR/releases"><img src="https://img.shields.io/github/v/release/dankunk/EPGplotR" alt="GitHub Release"></a><a href="https://cran.r-project.org/package=EPGplotR"><img src="https://www.r-pkg.org/badges/version/EPGplotR" alt="CRAN Status"></a><a href="https://github.com/dankunk/EPGplotR/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg" alt="Contributions Welcome"></a>
-</div>
+<!-- badges: start align="center" -->
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/dankunk/EPGplotR/blob/main/LICENSE.md)
+  [![GitHub Release](https://img.shields.io/github/v/release/dankunk/EPGplotR)](https://github.com/dankunk/EPGplotR/releases)
+  [![CRAN Status](https://www.r-pkg.org/badges/version/EPGplotR)](https://cran.r-project.org/package=EPGplotR)
+  [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/dankunk/EPGplotR/blob/main/CONTRIBUTING.md)
+  [![CRAN Downloads](https://cranlogs.r-pkg.org/badges/EPGplotR)](https://www.rdocumentation.org/packages/EPGplotR)
+  [![GitHub Issues](https://img.shields.io/github/issues/dankunk/EPGplotR.svg)](https://github.com/dankunk/EPGplotR/issues)
+  [![GitHub Stars](https://img.shields.io/github/stars/dankunk/EPGplotR.svg)](https://github.com/dankunk/EPGplotR/stargazers)
+  [![R Version](https://img.shields.io/badge/R-4.0%2B-blue.svg)](https://www.r-project.org/)
+<!-- badges: end -->
+
 
 ---
 
