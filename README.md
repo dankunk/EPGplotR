@@ -10,7 +10,6 @@
   [![GitHub Release](https://img.shields.io/github/v/release/dankunk/EPGplotR)](https://github.com/dankunk/EPGplotR/releases)
   [![CRAN Status](https://www.r-pkg.org/badges/version/EPGplotR)](https://cran.r-project.org/package=EPGplotR)
   [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/dankunk/EPGplotR/blob/main/CONTRIBUTING.md)
-  [![CRAN Downloads](https://cranlogs.r-pkg.org/badges/EPGplotR)](https://www.rdocumentation.org/packages/EPGplotR)
   [![GitHub Issues](https://img.shields.io/github/issues/dankunk/EPGplotR.svg)](https://github.com/dankunk/EPGplotR/issues)
   [![GitHub Stars](https://img.shields.io/github/stars/dankunk/EPGplotR.svg)](https://github.com/dankunk/EPGplotR/stargazers)
   [![R Version](https://img.shields.io/badge/R-4.0%2B-blue.svg)](https://www.r-project.org/)
