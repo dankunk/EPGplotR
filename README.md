@@ -6,18 +6,7 @@
 </div>
 
 <div align="center">
-  <a href="https://github.com/dankunk/EPGplotR/blob/main/LICENSE.md">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
-  </a>
-  <a href="https://github.com/dankunk/EPGplotR/releases">
-    <img src="https://img.shields.io/github/v/release/dankunk/EPGplotR" alt="GitHub Release">
-  </a>
-  <a href="https://cran.r-project.org/package=EPGplotR">
-    <img src="https://www.r-pkg.org/badges/version/EPGplotR" alt="CRAN Status">
-  </a>
-  <a href="https://github.com/dankunk/EPGplotR/blob/main/CONTRIBUTING.md">
-    <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg" alt="Contributions Welcome">
-  </a>
+  <a href="https://github.com/dankunk/EPGplotR/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a><a href="https://github.com/dankunk/EPGplotR/releases"><img src="https://img.shields.io/github/v/release/dankunk/EPGplotR" alt="GitHub Release"></a><a href="https://cran.r-project.org/package=EPGplotR"><img src="https://www.r-pkg.org/badges/version/EPGplotR" alt="CRAN Status"></a><a href="https://github.com/dankunk/EPGplotR/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg" alt="Contributions Welcome"></a>
 </div>
 
 ---
