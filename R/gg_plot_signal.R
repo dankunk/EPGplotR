@@ -143,6 +143,10 @@ gg_plot_signal <- function(rec_dt, downsample_rate = 10, time_unit = NULL, alpha
   # Format x-axis labels to one decimal place
   label_format <- function(x) sprintf("%.0f", x)
 
+
+
+  # Making padding based on the time_unit when no annotations are plotted
+
   if (no_ana) {
     if (time_unit == "hours") {
       x_expand <- c(0, 0.1)  # Larger padding for hours
