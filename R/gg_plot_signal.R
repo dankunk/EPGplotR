@@ -134,10 +134,28 @@ gg_plot_signal <- function(rec_dt, downsample_rate = 10, time_unit = NULL, alpha
   breaks_number <- 5  # Desired number of breaks
   x_breaks <- scales::pretty_breaks(n = breaks_number)(c(min_time, max_time))
 
+  # Ensure max_time is included in x_breaks
+  if (!any(abs(x_breaks - max_time) < .Machine$double.eps^0.5)) {
+    x_breaks <- c(x_breaks, max_time)
+  }
+  x_breaks <- sort(unique(x_breaks))
+
   # Format x-axis labels to one decimal place
-  label_format <- function(x) sprintf("%.1f", x)
+  label_format <- function(x) sprintf("%.0f", x)
 
   if (no_ana) {
+    if (time_unit == "hours") {
+      x_expand <- c(0, 0.1)  # Larger padding for hours
+    } else if (time_unit == "seconds") {
+      x_expand <- c(0, 5)  # Smaller padding for seconds
+    }
+  } else {
+    x_expand <- c(0, 0)  # No padding when behavior annotations are present
+  }
+
+
+  if (no_ana) {
+
     # Plot without behavior annotations
     p <- ggplot(rec_dt_ds, aes(x = time_adj, y = signal)) +
       geom_line(alpha = alpha, linewidth = linewidth) +
@@ -146,11 +164,11 @@ gg_plot_signal <- function(rec_dt, downsample_rate = 10, time_unit = NULL, alpha
         breaks = x_breaks,
         limits = c(min_time, max_time),
         labels = label_format,
-        expand = c(0, 0)
+        expand = x_expand  # Apply slight padding
       ) +
       labs(
         title = plot_title,
-        y = "Signal (V)"
+        y = "Signal (V)"  # Updated to "V" as per your note
       ) +
       theme_minimal() +
       theme(
@@ -190,7 +208,7 @@ gg_plot_signal <- function(rec_dt, downsample_rate = 10, time_unit = NULL, alpha
     # Create a grouping variable for continuous behavior segments
     rec_dt_ds[, group := .GRP, by = .(behavior_label, run_id)]
 
-    # Create the ggplot
+    # Plot with behavior annotations without padding
     p <- ggplot(rec_dt_ds, aes(x = time_adj, y = signal, color = behavior_label, group = group)) +
       geom_line(alpha = alpha, linewidth = linewidth) +
       scale_color_manual(values = behavior_colors, name = "Behavior") +
@@ -199,11 +217,11 @@ gg_plot_signal <- function(rec_dt, downsample_rate = 10, time_unit = NULL, alpha
         breaks = x_breaks,
         limits = c(min_time, max_time),
         labels = label_format,
-        expand = c(0, 0)
+        expand = c(0, 0)  # No padding since legend provides space
       ) +
       labs(
         title = plot_title,
-        y = "Signal (V)"
+        y = "Signal (V)"  # Updated to "V" as per your note
       ) +
       theme_minimal() +
       theme(
