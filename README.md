@@ -118,6 +118,9 @@ ana_dt <- load_ana_file()
 
 # Alternatively, specify the file path directly:
 ana_dt <- load_ana_file(filepath = "C:/Users/user/My_ANA_file_folder/recording1_ch1.ANA")
+
+# Or if you don't have an ANA file, proceed to the plotting functions and use no_ana = TRUE
+
 ```
 
 
