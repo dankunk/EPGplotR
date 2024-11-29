@@ -2,7 +2,7 @@
 ***A Package for Plotting Insect Electrical Penetration Graph Signals in R!***
 
 <div align="center">
-  <img src="https://github.com/dankunk/EPGplotR/blob/main/EPGplotR.png" alt="EPGplotR Hex Logo" width="80%"/>
+  <img src="https://github.com/dankunk/EPGplotR/blob/main/EPGplotR.png" alt="EPGplotR Hex Logo" width="50%"/>
 </div>
 
 <!-- badges: start align="center" -->
