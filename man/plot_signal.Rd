@@ -2,43 +2,49 @@
 % Please edit documentation in R/plot_signal.R
 \name{plot_signal}
 \alias{plot_signal}
-\title{Plot Signal Data with Behavior Codes Using Plotly}
+\title{Plot Signal Data with or without Behavior Codes Using Plotly}
 \usage{
 plot_signal(
   rec_dt,
   downsample_rate = 10,
   time_unit = "hours",
   alpha = 0.5,
-  plot_title = "EPG Signal"
+  plot_title = "EPG Signal",
+  no_ana = FALSE
 )
 }
 \arguments{
-\item{rec_dt}{A \code{data.table} with columns \code{time}, \code{signal}, and \code{behavior}.}
+\item{rec_dt}{A \code{data.table} with columns \code{time} and \code{signal}. If behavior codes are available,
+it should also include a \code{behavior} column.}
 
-\item{downsample_rate}{The rate to downsample the data (e.g., \code{10} for 10 Hz). Default is \code{10}.}
+\item{downsample_rate}{The rate to downsample the data (e.g., \code{10} for every 10th point). Default is \code{10}.}
 
 \item{time_unit}{The time unit for the x-axis: \code{"hours"} or \code{"seconds"}. Default is \code{"hours"}.}
 
 \item{alpha}{The transparency level for the lines (0 = fully transparent, 1 = fully opaque). Default is \code{0.5}.}
 
 \item{plot_title}{The title of the plot. Default is \code{"EPG Signal"}.}
+
+\item{no_ana}{Logical value indicating whether to plot without behavior annotations.
+If \code{TRUE}, behavior annotations are ignored and the plot shows only the raw signal.
+Default is \code{FALSE}.}
 }
 \value{
 A \code{plotly} object.
 }
 \description{
-Creates an interactive plot of the signal data, color-coded by behavior.
-Allows plotting the x-axis in hours or seconds, with customizable time units.
-You can also adjust the line transparency and specify a custom plot title.
+Creates an interactive plot of the signal data using Plotly. If behavior codes are available,
+the plot can be color-coded by behavior. Allows plotting the x-axis in hours or seconds,
+with customizable time units. You can adjust the line transparency and specify a custom plot title.
 }
 \examples{
 \dontrun{
-# Plot with default settings
-p <- plot_signal(rec_dt)
+# Plot without behavior annotations
+p <- plot_signal(rec_dt, no_ana = TRUE)
 p
 
-# Plot with custom alpha and title
-p <- plot_signal(rec_dt, alpha = 0.7, plot_title = "Custom EPG Plot")
+# Plot with behavior annotations (default behavior)
+p <- plot_signal(rec_dt)
 p
 }
 }
