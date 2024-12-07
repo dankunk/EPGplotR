@@ -159,7 +159,9 @@ plot_signal(rec_dt, downsample_rate = 1)
 plot_signal(rec_dt, downsample_rate = 1, time_unit = "seconds")
 
 # Modify transparency and add a custom plot title
-plot_signal(rec_dt, downsample_rate = 1, time_unit = "seconds", alpha = 1, plot_title = "Recording 1 - Channel 1 - Alpha = 1")
+plot_signal(rec_dt, downsample_rate = 1, time_unit = "seconds",
+    alpha = 1,
+    plot_title = "Recording 1 - Channel 1 - Alpha = 1")
 ```
 
 #### Option 2: Create Static Plots
