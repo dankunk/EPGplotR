@@ -180,7 +180,10 @@ p <- gg_plot_signal(rec_dt, downsample_rate = 1, alpha = 0.5)
 gg_plot_signal(rec_dt, downsample_rate = 1, alpha = 1, range = c(5, 8), range_unit = "hours")
 
 # Plot from 12603.5 seconds to 12605.85 seconds
-gg_plot_signal(rec_dt, alpha = 1, downsample_rate = 1, range = c(12603.5, 12605.85), range_unit = "seconds")
+gg_plot_signal(rec_dt, alpha = 1,
+  downsample_rate = 1,
+  range = c(12603.5, 12605.85),
+  range_unit = "seconds")
 
 # Save plots to disk using the output_file argument. If left blank, it defaults to NULL and displays the plot in the plot window
 gg_plot_signal(
