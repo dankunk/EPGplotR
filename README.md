@@ -56,26 +56,27 @@ Before installing **`EPGplotR`**, ensure you have the following tools installed:
 1. **R**: Download from [CRAN](https://cran.r-project.org/).
 2. **RStudio**: Download the desktop version from [Posit](https://posit.co/download/rstudio-desktop/).
 
-Once these are installed, you can install **EPGplotR** using the **`install_github()`** function from the `devtools` package.
+Once these are installed, you can install **EPGplotR** using the **`pak`** function from the `pak` package.
 
 ### Installation Steps
 
-1. **Install `devtools` Package** (if not already installed):
+1. **Install `pak` Package** (if not already installed):
 
     ```R
-    install.packages("devtools")
+    install.packages("pak")
+    install.packages("gtools")
     ```
 
-2. **Load `devtools` into Your Environment**:
+2. **Load `pak` into Your Environment**:
 
     ```R
-    library(devtools)
+    library(pak)
     ```
 
 3. **Install EPGplotR from GitHub**:
 
     ```R
-    install_github("dankunk/EPGplotR")
+    pak("dankunk/EPGplotR")
     ```
 
 4. **Load EPGplotR**:
