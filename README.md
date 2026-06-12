@@ -7,7 +7,7 @@
 
 <!-- badges: start align="center" -->
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/dankunk/EPGplotR/blob/main/LICENSE.md)
-  [![GitHub Release](https://img.shields.io/github/v/release/dankunk/EPGplotR)](https://github.com/dankunk/EPGplotR/releases)
+  [![GitHub Release](https://img.shields.io/github/v/tag/dankunk/EPGplotR)](https://github.com/dankunk/EPGplotR/tags)
   [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/dankunk/EPGplotR/blob/main/CONTRIBUTING.md)
   [![GitHub Issues](https://img.shields.io/github/issues/dankunk/EPGplotR.svg)](https://github.com/dankunk/EPGplotR/issues)
   [![GitHub Stars](https://img.shields.io/github/stars/dankunk/EPGplotR.svg)](https://github.com/dankunk/EPGplotR/stargazers)
