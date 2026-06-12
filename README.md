@@ -12,6 +12,7 @@
   [![GitHub Issues](https://img.shields.io/github/issues/dankunk/EPGplotR.svg)](https://github.com/dankunk/EPGplotR/issues)
   [![GitHub Stars](https://img.shields.io/github/stars/dankunk/EPGplotR.svg)](https://github.com/dankunk/EPGplotR/stargazers)
   [![R Version](https://img.shields.io/badge/R-4.0%2B-blue.svg)](https://www.r-project.org/)
+  [![DOI](https://zenodo.org/badge/893256761.svg)](https://doi.org/10.5281/zenodo.20659005)
 <!-- badges: end -->
 
 
